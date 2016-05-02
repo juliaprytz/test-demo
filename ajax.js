@@ -15,5 +15,5 @@ request.onreadystatechange = function() {
   
 }
 
-request.open('GET', 'http://marby.se/AJK15G/lorem_text.php');
+request.open('GET', 'http://mardby.se/AJK15G/lorem_text.php');
 request.send();
