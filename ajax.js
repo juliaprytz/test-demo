@@ -6,11 +6,12 @@
 
 //Påbörja en hämting
 var request = new XMLHttpRequest();
-request.onreadystatechange = function(req, res) {
+request.onreadystatechange = function() {
   
   console.log("nåt hände");
   
   console.log("jajemensan");
+  console.log("Svaret (response) " + request.response);
   
 }
 
