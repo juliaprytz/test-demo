@@ -11,7 +11,10 @@ request.onreadystatechange = function() {
   console.log("nåt hände");
   
   console.log("jajemensan");
+  
+  if(request.readyState == 4 && request.status == 200) {
   console.log("Svaret (response) " + request.responseText);
+  }
   
 }
 
