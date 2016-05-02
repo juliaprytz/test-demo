@@ -6,11 +6,13 @@
 
 //Påbörja en hämting
 var request = new XMLHttpRequest();
-request.onreadystatechange = function() {
+request.onreadystatechange = function(req, res) {
   
   console.log("nåt hände");
   
+  console.log("jajemensan");
+  
 }
 
-request.open('GET', 'http://www.google.com');
+request.open('GET', 'http://marby.se/AJK15G/lorem_text.php');
 request.send();
